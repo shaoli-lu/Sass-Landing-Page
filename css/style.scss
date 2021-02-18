@@ -37,6 +37,13 @@ body {
         a:hover {
             color: $secondary-color;
         }
+
+        
+        img {
+            height: 1%;
+            margin: 0.8px 0;
+        
+        }
     }
 
   
@@ -45,14 +52,16 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 5px;
+       
 
         img {
             width: 50%;
+            margin-left: 10px;
         }
 
         h1 {
-            font-size: 50px;
+            font-size: 25px;
             line-height: 1.2;
         }
 
@@ -61,7 +70,7 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 50%;
 }
 
 a {
