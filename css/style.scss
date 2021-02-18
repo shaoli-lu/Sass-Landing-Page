@@ -14,7 +14,7 @@ body {
 
 .showcase {
     @include set-background($primary-color);
-    height: 600px;
+    height: 700px;
 
     .nav {
         display: flex;
